@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #242F9B;
+    font-family: 'Space Mono', monospace;
+}
+
+.nav {
+    height: 100px;
+    color: #DBDFFD;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.nav img {
+    width: 50px;
+    height: 50px;
+    padding: 15px 0 15px 15px;
+}
+
+.nav p {
+    padding: 15px 0 15px 5px;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: #DBDFFD;
+    font-family: 'Space Mono', monospace;
+}
+
+.body {
+    font-family: 'Space Mono', monospace;
+}
+
+.student {
+    margin: 90px 0 50px 0;
+}
+
+
+.admin {
+    position: absolute;
+    right: 0;
+}
+
+.admin, .student {
+    width: 50%;
+    height: 100px;
+}
+
+.adminPage .admin button, .adminPage .student button {
+    height: 50px;
+    font-size: 20px;
+}
+
+.adminPage .admin {
+    margin: 0;
+}
+
+.adminPage .student {
+    margin: 60px 0 0 0;
+}
+
+.admin button, .student button {
+    height: 100px;
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+    cursor: pointer;
+    color: #F15412;
+}
+
+.student button, .student {
+    border-radius: 0 35px 35px 0;
+}
+
+.admin button, .admin {
+    border-radius: 35px 0 0 35px;
+}
+
+.admin button:hover, .student button:hover, .loginButton button:hover, .delete button:hover {
+    color: #DBDFFD;
+    font-weight: bold;
+    background-color: #F15412;
+    box-shadow: 5px 5px 20px #DBDFFD;
+    transition: 0.2s ease-out;
+}
+
+.adminLogin {
+    width: 300px;
+    height: 400px;
+}
+
+.login, .adminLogin, .delete {
+    border: 2px solid white;
+    color: #DBDFFD;
+    width: 350px;
+    border-radius: 10px;
+    margin: 50px auto auto auto;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    padding-top: 10px;
+}
+.login {
+    height: 300px;
+}
+.loginForm, .adminLoginForm {
+    padding-top: 50px;
+    margin: 10px auto auto auto;
+}
+
+.loginButton {
+    position: relative;
+    top: 50px;
+    width: 80px;
+    height:30px;
+    margin: auto;
+}
+
+.loginButton button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+}
+
+.loginForm input, .adminLoginForm input, .addStudent input, .delete input {
+    margin-top: 12px;
+    padding: 8px;
+    font-family: 'Space Mono', monospace;
+    outline: none;
+    border-bottom: 2px solid #F15412;
+    background-color: #242F9B;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    color: #DBDFFD;
+}
+
+.loginForm input:focus, .adminLoginForm input:focus, .addStudent input:focus, .delete input:focus {
+    border-bottom: 2px solid #DBDFFD;
+}
+
+.email {
+    margin-bottom: 25px;
+}
+
+.addStudent {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    align-items: center;
+    color: #fff;
+}
+
+.addStudent h1, .delete h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.addStudent select {
+    background: #F15412 none; /*background and background-image*/
+    border-radius: 3px;
+    outline: none;
+    color: #DBDFFD;
+}
+
+.addStudent .add {
+    padding-left: 20px;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+.addStudent input, .delete input {
+    width: 90%;
+    padding: 0 5px 5px 5px;
+}
+
+.addStudent input::placeholder, .delete input::placeholder{
+    color: #DBDFFD;
+}
+
+.delete {
+    border: none;
+    padding: 50px;
+}
+
+.delete .del {
+    margin-top: 20px;
+}
+
+.delete button {
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+}

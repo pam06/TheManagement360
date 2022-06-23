@@ -1,0 +1,59 @@
+<%- include("partials/header"); %>
+<section id="addStudent">
+    <div class="addStudent">
+        <h1>Add Student Details</h1>
+        <form action="">
+            <div class="add">
+                <label for="usn">
+                    <input type="text" name="usn" autocomplete="off" placeholder="University Seat Number">
+                </label>
+            </div>
+            <div class="add">
+                <label for="name">
+                    <input type="text" name="name" autocomplete="off" placeholder="Full Name">
+                </label>
+            </div>
+            <div class="add">
+                <label for="department">
+                    Department:
+                    <select name="department">
+                        <option name="1">Computer Science</option>
+                        <option name="2">Information Science</option>
+                        <option name="3">Civil</option>
+                        <option name="4">Mechanical</option>
+                        <option name="5">Electronics & Communication</option>
+                        <option name="6">Electrical and Electronics</option>
+                        <option name="7">Biotechnology</option>
+                    </select>
+                </label>
+            </div>
+            <div class="add">
+                <label for="phone">
+                    <input type="text" name="phone" autocomplete="off" placeholder="Phone Number">
+                </label>
+            </div>
+            <div class="add">
+                <label for="email">
+                    <input type="email" name="email" autocomplete="off" placeholder="Email">
+                </label>
+            </div>
+            <div class="add">
+                <label for="dob">
+                    Date of Birth:
+                    <input type="date" name="dob">
+                </label>
+            </div>
+            <div class="add">
+                <label for="">
+
+                </label>
+            </div>
+            <div class="loginButton">
+                <button type="submit">Add <i class="fa-solid fa-plus"></i></button>
+            </div>
+
+        </form>
+    </div>
+</section>
+
+<%- include("partials/footer"); %>

@@ -1,0 +1,20 @@
+<%- include("partials/header") %>
+<div class="adminLogin">
+    <h1>Login</h1>
+    <form action="/adminPage" class="adminLoginForm">
+        <div class="email">
+            <label for="email">
+                Enter your email:
+                <input type="email" name="email">
+            </label>
+        </div>
+        <label for="password">
+            Enter the password:
+            <input type="password" name="password">
+        </label>
+        <div class="loginButton">
+            <button>Login <i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+        </div>
+    </form>
+</div>
+<%- include("partials/footer") %>
